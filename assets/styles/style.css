@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: rgba(1, 3, 28, 0.5);
+}
+
+.nav-img {
+    max-height: 3rem;
+}
+
+.backdrop {
+    background-image:url(../img/bg-star.png), linear-gradient(to bottom, #01031C, #14243C);
+    background-position: center center, center center;
+    background-repeat: repeat, no-repeat;
+    background-size: 100%, cover;
+}
+
+.jumbotron-img {
+    height: 75vh !important;
+}
+
+.jumbotron h1 {
+    font-size: 4rem;
+    background: linear-gradient(to right bottom, #fff, #040404);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.jumbotron a {
+    width: 12rem;
+    font-weight: 500;
+}
+
+.jumbotron a:hover {
+    font-weight: 700;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -webkit-box-shadow: 0 0 10px 3px #4b9fba;
+    -moz-box-shadow: 0 0 10px 3px #4b9fba;
+    box-shadow: 0 0 10px 3px #4b9fba;
+}
+
+.about-bg {
+    background-image: url(../img/rocket-right.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.box-container {
+    -webkit-box-shadow: 3px 3px 10px 3px #4B9FBA;
+    -moz-box-shadow: 3px 3px 10px 3px #4B9FBA;
+    box-shadow: 3px 3px 10px 3px #4B9FBA;
+    width: fit-content;
+    border: 2px dashed #fff;
+}
+
+.timeline-title {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #F1B637;
+    font-size: 6rem;
+    text-align: center;
+}
+
+.timeline-img {
+    max-height: 80vh;
+}
+
+.blue-waves {
+    background-image:url(../img/waves-end-blue.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 50vh;
+}
