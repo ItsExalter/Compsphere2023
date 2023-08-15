@@ -78,12 +78,12 @@
         <div id="Timeline" class="flex-column justify-content-center align-items-start w-100 h-100 vh-100">
           <div class="d-flex justify-content-evenly align-items-center w-100 h-100">
             <img class="img-fluid timeline-img" src="./assets/img/timeline.png" alt="Timeline">
-            <h1 class="timeline-title fw-light">Our Timeline</h1>
+            <h1 class="timeline-title fw-light title-text-spacing">Our Timeline</h1>
           </div>
         </div>
-        <div class="w-100 py-5 rundown d-flex flex-column justify-content-center align-items-center">
-          <div class="d-flex flex-row justify-content-center align-items-center h-100 my-4">
-            <div class="box-container d-flex flex-row justify-content-start align-items-center px-5 py-4 mx-5 bg-dark rounded rounded-4">
+        <div class="w-100 py-5 rundown d-flex flex-column justify-content-center align-items-center flex-wrap">
+          <div class="d-flex flex-row justify-content-center align-items-center h-100 my-4 flex-wrap">
+            <div class="box-container d-flex flex-row justify-content-start align-items-center px-4 py-4 mx-5 bg-dark rounded rounded-4">
               <div class="d-flex flex-column justify-content-center align-items-center text-center border-end border-4 pe-4">
                 <p class="text-white mb-0">Day</p>
                 <h2 class="text-white mb-0">1</h2>
@@ -93,7 +93,7 @@
                 <p class="text-white-50 mb-0 fs-2">COMING SOON</p>
               </div>
             </div>
-            <div class="box-container d-flex flex-row justify-content-start align-items-center px-5 py-4 mx-5 bg-dark rounded rounded-4">
+            <div class="box-container d-flex flex-row justify-content-start align-items-center px-4 py-4 mx-5 bg-dark rounded rounded-4">
               <div class="d-flex flex-column justify-content-center align-items-center text-center border-end border-4 pe-4">
                 <p class="text-white mb-0">Day</p>
                 <h2 class="text-white mb-0">2</h2>
@@ -104,8 +104,8 @@
               </div>
             </div>
           </div>
-          <div class="d-flex flex-row justify-content-center align-items-center h-100 my-4">
-            <div class="box-container d-flex flex-row justify-content-start align-items-center px-5 py-4 mx-5 bg-dark rounded rounded-4">
+          <div class="d-flex flex-row justify-content-center align-items-center h-100 my-4 flex-wrap">
+            <div class="box-container d-flex flex-row justify-content-start align-items-center px-4 py-4 mx-5 bg-dark rounded rounded-4">
               <div class="d-flex flex-column justify-content-center align-items-center text-center border-end border-4 pe-4">
                 <p class="text-white mb-0">Day</p>
                 <h2 class="text-white mb-0">3</h2>
@@ -115,7 +115,7 @@
                 <p class="text-white-50 mb-0 fs-2">COMING SOON</p>
               </div>
             </div>
-            <div class="box-container d-flex flex-row justify-content-start align-items-center px-5 py-4 mx-5 bg-dark rounded rounded-4">
+            <div class="box-container d-flex flex-row justify-content-start align-items-center px-4 py-4 mx-5 bg-dark rounded rounded-4">
               <div class="d-flex flex-column justify-content-center align-items-center text-center border-end border-4 pe-4">
                 <p class="text-white mb-0">Day</p>
                 <h2 class="text-white mb-0">4</h2>
@@ -126,8 +126,8 @@
               </div>
             </div>
           </div>
-          <div class="d-flex flex-row justify-content-center align-items-center h-100 my-4 pb-4">
-            <div class="box-container d-flex flex-row justify-content-start align-items-center px-5 py-4 mx-5 bg-dark rounded rounded-4">
+          <div class="d-flex flex-row justify-content-center align-items-center h-100 my-4 pb-4 flex-wrap">
+            <div class="box-container d-flex flex-row justify-content-start align-items-center px-4 py-4 mx-5 bg-dark rounded rounded-4">
               <div class="d-flex flex-column justify-content-center align-items-center text-center border-end border-4 pe-4">
                 <p class="text-white mb-0">Day</p>
                 <h2 class="text-white mb-0">5</h2>
@@ -140,14 +140,38 @@
           </div>
         </div>
       </div>
-      <div class="blue-waves w-100"></div>
-      <div id="Competition" class="d-flex flex-column vh-100">
-
+      <!-- Competition -->
+      <div id="Competition" class="waves w-100 min-vh-100">
+        <div class="d-flex flex-column align-items-center w-100">
+          <div class="competition-header w-100 h-100 d-flex flex-column justify-content-end align-items-center">
+            <h1 class="title-text-spacing fw-medium competition-title">COMPETITIONS</h1>
+            <div class="tabs-wrap d-flex justify-content-center mb-3">
+              <button type="button" class="btn btn-outline-dark px-3 py-2 rounded rounded-4 mx-3">ERP Simulation</button>
+              <button type="button" class="btn btn-outline-dark px-3 py-2 rounded rounded-4 mx-3">Programming Rush</button>
+              <button type="button" class="btn btn-outline-dark px-3 py-2 rounded rounded-4 mx-3">UI/UX Design</button>
+            </div>
+            <hr class="border border-dark border-2 opacity-50 rounded rounded-5 w-25 mb-5">
+            
+          </div>
+          <div class="vw-100 min-vh-100">
+            <div class="bg-dark">
+               
+            </div>             
+          </div>
+        </div>
       </div>
       
     </main>
-    <footer></footer>
+    <footer class="text-center py-4 w-100">
+      <div class="container">
+        <div class="copyright"> Copyright <span class=" fw-bold">PUMA Computing 2023</span>. All Rights Reserved.
+            <br>Made with 💕 by  <a class="text-decoration-none text-white" href="https://pumacomputing.org/division_page/RnT_WD.php"><strong>Webdev, Research and Technology</strong></a>
+        </div>
+      </div>
+    </footer>
     <!-- Bootstrap V5.3 - Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Custom Script -->
+    <script src="./assets/script/main.js"></script>
 </body>
 </html>
